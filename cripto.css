@@ -1,0 +1,49 @@
+*{
+	font-family: 'Georama', sans-serif;
+}
+
+.black{
+	background-color: black;
+}
+
+p{
+
+ font-size: 30px;
+text-align: justify;
+}
+
+#beneficios{
+	background-color:#dfdfdf;
+}
+
+#funcionamiento{
+	background-color:#dfdfdf;
+}
+
+.nav-item{
+	color: black;
+}
+
+.Titulo{
+	padding-top: 60px;
+	margin-top: 30px;
+}
+
+*@media only screen and (max-width:1120px){
+.publicidad{
+	display: none;
+}
+.publicidad_responsive{
+	display: block;
+}
+
+
+}
+
+@media only screen and (max-width:768px){
+
+	p{
+		font-size:15px;
+	}
+	
+}
